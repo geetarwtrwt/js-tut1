@@ -102,3 +102,78 @@ let date=new Date();
 // console.log(date.getTime());
 // console.log(date.toDateString());
 // console.log(date.toLocaleDateString());
+
+
+let arr=[1,2,3,4,5];
+// console.log(arr);
+// let spliceArr=arr.splice(0,2,"geeta","rawat");
+// console.log(spliceArr); 
+// console.log(arr); 
+
+
+let arr2=["geeta","Rawat"];
+// let newArr=[...arr,...arr2];
+// console.log(newArr);
+
+let arr3=[1,2,[3,4,[5,6,7]]]
+// console.log(arr3.flat(3));
+
+
+let arr4=Array.isArray("geeta")
+// console.log(arr4);
+
+let arr5=Array.of("geeta","rawat")
+// console.log(arr5);
+
+
+let str2="geeta"
+let arr6=Array.from(str2);
+// console.log(arr6);
+// console.log(str2);
+
+
+let str1=2500;
+// console.log(typeof toString(str1));
+
+
+let str3=false;
+// console.log(typeof String(str3));
+
+let str4=undefined;
+// console.log(typeof String(str4));
+
+let str5=[10,20,30];
+// console.log(typeof String(str5));
+
+
+let value = String(50 + 50);
+// console.log(value);
+// console.log(typeof value);
+
+let strobj=new String("JavaScript");
+// console.log(strobj);
+
+let strobj2 = new String("Hello");
+let strobj3 = "Hello";
+// console.log(strobj2===strobj3);
+
+
+let strobj4="geeta";
+// console.log(strobj4.charAt(0));
+
+
+let strobj5=new String("frontend");
+// console.log(typeof toString(strobj5));
+
+let char1="JavaScript";
+// console.log(char1.charAt(3));
+
+
+let char2="geeta";
+
+for(let i=0;i<=char2.length;i++){
+    // console.log(char2.charAt(char2[i]));    
+}
+
+let char3 = "Hello";
+console.log(str.charAt(10));
