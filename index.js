@@ -176,4 +176,227 @@ for(let i=0;i<=char2.length;i++){
 }
 
 let char3 = "Hello";
-console.log(str.charAt(10));
+// console.log(str.charAt(10));
+
+
+let arrpush1=["apple","banana"];
+// arrpush1.push("mango")
+// arrpush1.push("orange","grapes")
+// console.log(arrpush1);
+
+let arrpush2=[10,20,30];
+// arrpush2.push(40)
+// console.log(arrpush2);
+
+
+let arrpush3=["geeta","aman","priya"];
+// arrpush3.push("rahul")
+// console.log(arrpush3);
+
+let arrpop1=["apple","banana","mango"];
+// let arrpop2=arrpop1.pop()
+// console.log(arrpop1);
+// console.log(arrpop2);
+
+
+let arrpop3=[10,20,30,40,50];
+// arrpop3.pop(2);
+// console.log(arrpop3);
+
+
+let arrpop4 = ["A", "B", "C"];
+// let result = arrpop4.pop();
+
+// console.log(result);
+// console.log(arrpop4);
+
+let arrshift=["apple","banana","mango"];
+// let newarrshift=arrshift.shift()
+// console.log(arrshift);
+// console.log(newarrshift);
+
+
+let arrshift2=[10,20,30,40];
+// arrshift2.shift(2)
+// console.log(arrshift2);
+
+let arrshift3=["a","b","c"];
+// let newarrshift3=arrshift3.shift();
+// console.log(newarrshift3);
+// console.log(arrshift3);
+
+
+let arrunshift1=["banana","mango"];
+// arrunshift1.unshift("apple");
+// console.log(arrunshift1);
+
+
+let arrunshift2=["c","d"];
+// arrunshift2.unshift("a","b");
+// console.log(arrunshift2);
+
+let arrunshift3=["aman","priya"];
+// arrunshift3.unshift("geeta");
+// console.log(arrunshift3);
+
+
+let arrincludes=["apple","banana","mango"];
+// console.log(arrincludes.includes("mango"));
+
+
+let arrincludes2=[10,20,30,40];
+// console.log(arrincludes.includes(50));
+
+
+let arrincludes3=["html","css","javascript","php"];
+// console.log(arrincludes3.includes("javascript"));
+
+
+let arrincludes4=["apple","banana"];
+// console.log(arrincludes4.includes("Apple"));
+
+
+let arrindex=["apple","banana","mango"];
+// console.log(arrindex.indexOf("mango"));
+
+
+let arrindex2=[10,20,30,40];
+// console.log(arrindex2.indexOf(30));
+
+
+let arrindex3=["html","css","javascript","php"];
+// console.log(arrindex3.indexOf("css"));
+
+
+let arrindex4=["apple","banana","mango"];
+// console.log(arrindex4.indexOf("orange"));
+
+
+let arrjoin1=["i","love","javascript"];
+// console.log(arrjoin1.join(" "));
+
+let arrjoin2=["html","css","javascript","php"];
+// console.log(arrjoin2.join("-"));
+
+
+let arrjoin3=["i","am","learning","javascript"];
+// console.log(arrjoin3.join(" "));
+
+
+let arrjoin4=["a","b","c"];
+// console.log(arrjoin4.join("-"));
+
+
+let arrslice=["apple","banana","mango","orange"];
+// console.log(arrslice.slice(1,3));
+
+
+let arrslice2=[10,20,30,40,50];
+// console.log(arrslice2.slice(0,3));
+// console.log(arrslice2.slice(-2));
+
+
+let arrslice3=[10,20,30,40];
+// let newarrslice3=arrslice3.slice(1,3);
+// console.log(newarrslice3);
+// console.log(arrslice3);
+
+
+let arrsplice1=["apple","banana","mango"];
+// console.log(arrsplice1.splice(1,1));
+
+let arrsplice2=[10,20,30,40,50];
+// console.log(arrsplice2.splice(1,2));
+
+
+let arrsplice3=["apple","banana","mango"];
+// arrsplice3.splice(1,1,"orange")
+// console.log(arrsplice3);
+
+
+let arrsplice4=["html","css"];
+// arrsplice4.splice(1,0,"javascript")
+// console.log(arrsplice4);
+
+let arrspread=[10,20,30];
+// let newarrspread=[...arrspread];
+// console.log(newarrspread);
+
+
+let arrspread2=[1,2,3];
+let arrspread3=[4,5,6];
+// let arrspread4=[...arrspread2,...arrspread3]
+// console.log(arrspread4);
+
+
+
+let arrspread5=[1,2,3];
+// let arrspread6=[0,...arrspread5,4]
+// console.log(arrspread6);
+
+
+let html=["html"];
+let css=["css"];
+let php=["php"];
+let arrspread7=[...html,...css,...php];
+// console.log(arrspread7);
+
+
+let arrflat=[1,2,[3,4],5];
+// console.log(arrflat.flat(2));
+
+let arrflat2=[1,[2,3],[4,5]];
+// console.log(arrflat2.flat(2));
+
+let arrflat3=[1,[2,[3,4]]];
+// console.log(arrflat3.flat(2));
+
+let arrflat4=[1,[2,[3,[4,5]]]]
+// console.log(arrflat4.flat(3));
+
+let isarr=[10,20,30];
+// console.log(Array.isArray(isarr));
+
+
+let isarr2="hello"
+// console.log(Array.isArray(isarr2));
+
+let isarr3=[1,2,3];
+let isarr4={name:"geeta"};
+// console.log(Array.isArray(isarr3));
+// console.log(Array.isArray(isarr4));
+
+
+// console.log(Array.isArray([]));
+// console.log(Array.isArray("hello"));
+// console.log(Array.isArray(100));
+
+
+
+let arrof=Array.of(10,20,30);
+// console.log(arrof);
+
+let arrof2=Array.of("html","css","js");
+// console.log(arrof2);
+
+
+// console.log(Array.of(5));
+
+// console.log(Array(5));
+// console.log(Array.of(5));
+
+
+let arrfrom="geeta";
+// console.log(Array.from(arrfrom));
+
+let arrfrom2="php";
+// console.log(Array.from(arrfrom2));
+
+let arrfrom3=new Set([10,20,30]);
+// console.log( Array.from( arrfrom3));
+
+for(let i=1;i<=5;i++){
+    console.log(Array.from(i));    
+}
+
+
