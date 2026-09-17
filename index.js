@@ -396,7 +396,51 @@ let arrfrom3=new Set([10,20,30]);
 // console.log( Array.from( arrfrom3));
 
 for(let i=1;i<=5;i++){
-    console.log(Array.from(i));    
+    // console.log(Array.from(i));    
 }
+
+
+
+let obj={
+    name:"geeta",
+    "full name":"geeta rawat",
+    email:"rwtgeet@gmail.com",
+    age:27,
+    add:{
+        "h no":"railway colony",
+        city:"delhi"
+    }
+};
+
+// console.log(obj.email);
+// console.log(obj["full name"]);
+
+// Object.freeze(obj)
+// obj.email="rwtgeet6@gmail.com";
+// console.log(obj.email);
+// console.log(obj?.add["h no"]);
+
+
+let obj2={
+    name:"deepu",
+    age:25
+}
+
+// console.log(obj2);
+
+let newObj=Object.assign({},obj,obj2);
+// console.log(newObj);
+
+
+let objKey=Object.keys(obj.add)
+// console.log(objKey);
+
+let objValue=Object.values(obj)
+// console.log(objValue);
+
+
+let objEnt=Object.entries(obj)
+// console.log(objEnt);
+
 
 
