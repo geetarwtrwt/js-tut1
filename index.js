@@ -444,3 +444,75 @@ let objEnt=Object.entries(obj)
 
 
 
+
+let obj3={
+    fname:"geeta",
+    email:"obj3@gmail.com"
+}
+let {fname:newName,email}=obj3;
+// console.log(newName);
+
+let obj4={
+    userName:"geeta",
+    fullName:"geeta rawat",
+    age:27
+}
+
+let {userName:user,fullName:fName}=obj4;
+// console.log(fName);
+
+
+let fun1=(username)=>{
+    // console.log(username);
+}
+fun1("Geeta")
+
+
+let fun2=(username)=>{
+return username
+}
+let resultFun2=fun2("geeta");
+// console.log(resultFun2);
+
+let fun3=(username="user")=>{
+    if(!username) return "Please enter name";
+    return `${username} logged in`
+}
+// console.log(fun3("geeta"));
+// console.log(fun3("rawat"));
+
+
+let fun4=(arr1,arr2,...arr3)=>{
+// console.log(arr3);
+}
+fun4(1,2,3,4);
+
+
+let fun5=(obj)=>{
+// console.log(`${obj.name} is here and her email is ${obj.email}`);
+}
+let objfun={
+    name:"geeta",
+    email:"rwtgeet@gmail.com"
+}
+fun5(objfun)
+
+
+let fun6=(arr)=>{
+// console.log(arr);
+}
+let arrfun=[10,20,30];
+fun6(arrfun)
+
+
+let fun7=()=>{
+    let fun7a="geeta";
+
+    let fun8=()=>{
+        console.log(fun7a);        
+        let fun8a="rawat";        
+    }
+    fun8()
+    // console.log(fun8a);    
+}
+fun7()
